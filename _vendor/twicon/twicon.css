@@ -1,3 +1,5 @@
+@charset 'UTF-8';
+
 /*!
 * @package twicon
 * @version 1.001
@@ -9,8 +11,8 @@
   font-family: twicon;
   font-weight: 400;
   font-style: Regular;
-  src: url(twicon.woff2) format("woff2"),
-    url(twicon.woff) format("woff");
+  src: url('./twicon.woff2') format("woff2"),
+    url('./twicon.woff') format("woff");
 }
 [class*=" twicon-"],
 [class^="twicon-"] {
